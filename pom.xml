@@ -14,6 +14,16 @@
       <url>http://localhost:8080/decision-central/maven2/</url>
     </repository>
   </repositories>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>7.7.0.Final</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </pluginManagement>
   <dependencies>
       <dependency>  
         <groupId>org.kie</groupId>  
